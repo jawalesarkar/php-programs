@@ -116,5 +116,27 @@ echo "<br> <br> <br>";
      echo(" <br>");
  }
 ?>
+<?php
+
+$num=5;
+for($i=$num-1;$i>=0;$i--)
+{
+    for($j=0;$j<=$i;$j++)
+    {
+        echo " * ";
+    }
+    for($k=$num-1;$k<=$num-$i;$k++);
+    {
+        echo "&nbsp&nbsp ";
+
+
+    }
+    for($s=$i;$s>=0;$s--)
+    {
+        echo " * ";
+    }
+    echo " <br>";
+}
+?>
 
  
