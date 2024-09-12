@@ -1,0 +1,1 @@
+let num=prompt(" how much do you want range to be")
